@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 725253cdc4557b64599f79d85d7786e3, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: 
+  handStartPosition: {x: 0, y: 0, z: 0}
+  handStartRotation: 0
+  mapPivotPrefabs:
+  - {fileID: 5998258585269830844, guid: 5d9635674e36d7549b32490055135610, type: 3}
+  mapPivotPositions:
+  - {x: 2, y: 0, z: 0}
+  winPivotPrefab: {fileID: 2961866170100405104, guid: 2e14d887cf25bdd45ac78da64793f75a, type: 3}
+  winPivotPosition: {x: 4, y: 0, z: 0}
+  shadowHandPrefab: {fileID: 3213144368064839027, guid: 47a4d509bde1bbd46a30b468ddfe20b0, type: 3}
+  shadowHandPosition: {x: 6, y: 0, z: 0}
+  shadowHandRotation: -90
+  bellPrefabs: []
+  bellPositions: []

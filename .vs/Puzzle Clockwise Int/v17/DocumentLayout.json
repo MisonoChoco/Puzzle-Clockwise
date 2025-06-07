@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\UNITIES\\Puzzle Clockwise Int\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|e:\\unities\\puzzle clockwise int\\assets\\scripts\\buttonfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|e:\\unities\\puzzle clockwise int\\assets\\scripts\\gamemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|e:\\unities\\puzzle clockwise int\\assets\\scripts\\gameflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|e:\\unities\\puzzle clockwise int\\assets\\scripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|e:\\unities\\puzzle clockwise int\\assets\\scripts\\winfailuibuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\winfailuibuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|e:\\unities\\puzzle clockwise int\\assets\\scripts\\winfailscreenui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\winfailscreenui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|e:\\unities\\puzzle clockwise int\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|e:\\unities\\puzzle clockwise int\\assets\\scripts\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|e:\\unities\\puzzle clockwise int\\assets\\scripts\\wincheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wincheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ButtonFunction.cs",
+              "DocumentMoniker": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\ButtonFunction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonFunction.cs",
+              "ToolTip": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\ButtonFunction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ButtonFunction.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwCoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T22:16:57.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameMode.cs",
+              "DocumentMoniker": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\GameMode.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameMode.cs",
+              "ToolTip": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\GameMode.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameMode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T22:10:49.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameFlow.cs",
+              "DocumentMoniker": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\GameFlow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameFlow.cs",
+              "ToolTip": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\GameFlow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameFlow.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwDgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T21:56:07.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Timer.cs",
+              "DocumentMoniker": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\Timer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Timer.cs",
+              "ToolTip": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\Timer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Timer.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T21:50:16.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ScoreManager.cs",
+              "DocumentMoniker": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\ScoreManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreManager.cs",
+              "ToolTip": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\ScoreManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScoreManager.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswDIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T21:40:52.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\LevelManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelManager.cs",
+              "ToolTip": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\LevelManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelManager.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T21:39:06.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WinCheck.cs",
+              "DocumentMoniker": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\WinCheck.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WinCheck.cs",
+              "ToolTip": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\WinCheck.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WinCheck.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T21:38:13.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WinFailUiButtons.cs",
+              "DocumentMoniker": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\WinFailUiButtons.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WinFailUiButtons.cs",
+              "ToolTip": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\WinFailUiButtons.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WinFailUiButtons.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T21:37:13.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WinFailScreenUi.cs",
+              "DocumentMoniker": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\WinFailScreenUi.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WinFailScreenUi.cs",
+              "ToolTip": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\WinFailScreenUi.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WinFailScreenUi.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T21:37:10.1Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
