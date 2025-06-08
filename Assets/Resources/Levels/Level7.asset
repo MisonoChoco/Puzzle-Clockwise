@@ -10,20 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 725253cdc4557b64599f79d85d7786e3, type: 3}
-  m_Name: Level1
+  m_Name: Level7
   m_EditorClassIdentifier: 
-  handStartPosition: {x: -0.6, y: 1.4, z: 0}
-  handStartRotation: -45
+  handStartPosition: {x: 2, y: -1, z: 0}
+  handStartRotation: 90
   mapPivotPrefabs:
   - {fileID: 5998258585269830844, guid: 5d9635674e36d7549b32490055135610, type: 3}
   - {fileID: 5998258585269830844, guid: 5d9635674e36d7549b32490055135610, type: 3}
+  - {fileID: 5998258585269830844, guid: 5d9635674e36d7549b32490055135610, type: 3}
   mapPivotPositions:
-  - {x: -2, y: 0, z: 0}
-  - {x: 0, y: -3.45, z: 0}
+  - {x: 4, y: -1, z: 0}
+  - {x: -2.9, y: 2, z: 0}
+  - {x: 1, y: 1.62, z: 0}
   winPivotPrefab: {fileID: 2961866170100405104, guid: 2e14d887cf25bdd45ac78da64793f75a, type: 3}
-  winPivotPosition: {x: 2, y: 0, z: 0}
+  winPivotPosition: {x: -5, y: -1.38, z: 0}
   shadowHandPrefab: {fileID: 3213144368064839027, guid: 47a4d509bde1bbd46a30b468ddfe20b0, type: 3}
-  shadowHandPosition: {x: 3.4, y: 1.4, z: 0}
-  shadowHandRotation: -45
-  bellPrefabs: []
-  bellPositions: []
+  shadowHandPosition: {x: -7, y: -1.4, z: 0}
+  shadowHandRotation: 90
+  bellPrefabs:
+  - {fileID: 7445719589063357569, guid: d72034647d26401489e6779f43dabab4, type: 3}
+  - {fileID: 7445719589063357569, guid: d72034647d26401489e6779f43dabab4, type: 3}
+  bellPositions:
+  - {x: 0, y: 0, z: 0}
+  - {x: 2, y: -4, z: 0}

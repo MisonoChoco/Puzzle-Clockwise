@@ -238,7 +238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f19a04ff594ed74e98c9bf659b4fb32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelData: {fileID: 0}
+  levelData: {fileID: 11400000, guid: cb92ab5747080db40bcbcbbd1f49327e, type: 2}
   gameplaySceneName: GameplayScene
 --- !u!212 &331817346
 SpriteRenderer:
@@ -699,7 +699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f19a04ff594ed74e98c9bf659b4fb32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelData: {fileID: 0}
+  levelData: {fileID: 11400000, guid: 8ca83df48d9748b4b8e027cc912d59fc, type: 2}
   gameplaySceneName: GameplayScene
 --- !u!212 &541882485
 SpriteRenderer:
@@ -861,7 +861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f19a04ff594ed74e98c9bf659b4fb32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelData: {fileID: 0}
+  levelData: {fileID: 11400000, guid: f34301372de30ae4caf8931284becf50, type: 2}
   gameplaySceneName: GameplayScene
 --- !u!212 &698794680
 SpriteRenderer:
@@ -1185,7 +1185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f19a04ff594ed74e98c9bf659b4fb32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelData: {fileID: 0}
+  levelData: {fileID: 11400000, guid: d8058bc935ea55642b52f3798805fd14, type: 2}
   gameplaySceneName: GameplayScene
 --- !u!212 &1165376514
 SpriteRenderer:
@@ -1498,7 +1498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f19a04ff594ed74e98c9bf659b4fb32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelData: {fileID: 0}
+  levelData: {fileID: 11400000, guid: 965d02a89742b9f46ac2f5e1aa3d3a0d, type: 2}
   gameplaySceneName: GameplayScene
 --- !u!212 &1190217922
 SpriteRenderer:
@@ -1660,7 +1660,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f19a04ff594ed74e98c9bf659b4fb32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelData: {fileID: 0}
+  levelData: {fileID: 11400000, guid: 949f6225cca372c419ce4d96936fbac9, type: 2}
   gameplaySceneName: GameplayScene
 --- !u!212 &1254482768
 SpriteRenderer:
@@ -1822,7 +1822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f19a04ff594ed74e98c9bf659b4fb32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelData: {fileID: 0}
+  levelData: {fileID: 11400000, guid: fb5a4c09df7e353418ea583d44e16198, type: 2}
   gameplaySceneName: GameplayScene
 --- !u!212 &1441343545
 SpriteRenderer:
@@ -1984,7 +1984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f19a04ff594ed74e98c9bf659b4fb32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelData: {fileID: 0}
+  levelData: {fileID: 11400000, guid: e5461a50733b3414db85d4a903e6ddf5, type: 2}
   gameplaySceneName: GameplayScene
 --- !u!212 &1505890209
 SpriteRenderer:
@@ -2308,7 +2308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f19a04ff594ed74e98c9bf659b4fb32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelData: {fileID: 0}
+  levelData: {fileID: 11400000, guid: 052e20eb2eb6ff246ac2dde7bcbd192d, type: 2}
   gameplaySceneName: GameplayScene
 --- !u!212 &1597820018
 SpriteRenderer:
@@ -2470,7 +2470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f19a04ff594ed74e98c9bf659b4fb32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelData: {fileID: 0}
+  levelData: {fileID: 11400000, guid: df26751a44da30a488529f4ed29ac887, type: 2}
   gameplaySceneName: GameplayScene
 --- !u!212 &1613620583
 SpriteRenderer:
@@ -2632,7 +2632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f19a04ff594ed74e98c9bf659b4fb32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelData: {fileID: 0}
+  levelData: {fileID: 11400000, guid: 3d21b26562e7d3c4282e136f067043e5, type: 2}
   gameplaySceneName: GameplayScene
 --- !u!212 &1621364921
 SpriteRenderer:
@@ -2890,7 +2890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f19a04ff594ed74e98c9bf659b4fb32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelData: {fileID: 0}
+  levelData: {fileID: 11400000, guid: 92d174bf266fde44f8a6b1a122ce83f5, type: 2}
   gameplaySceneName: GameplayScene
 --- !u!212 &2002755586
 SpriteRenderer:
