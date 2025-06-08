@@ -1,7 +1,7 @@
 # Puzzle-Clockwise-Int
 
-Missing audio and special effects
+Missing 8 levels out of 15 total
 
-There aren't enough levels, and the level layouts are awful.
+That is all of the issues.
 
-**Please don't check this at the moment.**
+**Levels are built by Scriptable Object, creating one is indeed easy, but for a game called Clockwise, it's suck (having to preset all objects in a temp scene with puzzle logic, remember all of the positions, then enter it into level data. It's just too tiring man.)**
