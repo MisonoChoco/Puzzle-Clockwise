@@ -1,4 +1,4 @@
-# Puzzle-Clockwise-Int
+# Puzzle-Clockwise-Intern
 
 Missing 8 levels out of 15 total
 
