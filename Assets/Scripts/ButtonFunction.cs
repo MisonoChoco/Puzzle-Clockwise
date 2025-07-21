@@ -31,15 +31,8 @@ public class SpriteButton : MonoBehaviour
         GameFlowManager.Instance.RestartCurrentLevel();
     }
 
-    public void PlayNormalMode()
+    public void LoadGuideLevel()
     {
-        GameSettings.Instance.SetGameMode(GameMode.Normal);
-        SceneManager.LoadScene("NormalLevelSelect");
-    }
-
-    public void PlayTimedMode()
-    {
-        GameSettings.Instance.SetGameMode(GameMode.Timed);
-        SceneManager.LoadScene("TimedLevelSelect");
+        SceneManager.LoadScene("Guide");
     }
 }

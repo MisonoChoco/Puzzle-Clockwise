@@ -14,7 +14,8 @@ public class HourHandController : MonoBehaviour
 
     public SpriteRenderer pivotASprite;
     public SpriteRenderer pivotBSprite;
-    private Color originalColor;
+    private Color originalColorA;
+    private Color originalColorB;
 
     public AudioSource rotatingaudioSource;
     public AudioSource anchoraudioSource;
@@ -28,64 +29,117 @@ public class HourHandController : MonoBehaviour
     public float afterimageLifetime = 0.4f;
 
     private Coroutine afterimageRoutine;
+    private Coroutine audioWaitRoutine;
 
     private void Start()
     {
         currentAnchor = pivotStart;
         currentPivot = pivotStart;
 
-        pivotASprite = pivotStart.GetComponentInChildren<SpriteRenderer>();
-        pivotBSprite = pivotEnd.GetComponentInChildren<SpriteRenderer>();
+        // Get sprite renderers if not assigned
+        if (pivotASprite == null && pivotStart != null)
+            pivotASprite = pivotStart.GetComponentInChildren<SpriteRenderer>();
+        if (pivotBSprite == null && pivotEnd != null)
+            pivotBSprite = pivotEnd.GetComponentInChildren<SpriteRenderer>();
+
+        // Store original colors separately
         if (pivotASprite != null)
-            originalColor = pivotASprite.color;
+            originalColorA = pivotASprite.color;
         if (pivotBSprite != null)
-            originalColor = pivotBSprite.color;
+            originalColorB = pivotBSprite.color;
     }
 
     private void OnDestroy()
     {
+        // Clean up all tweens and coroutines
         if (rotationTween != null && rotationTween.IsActive())
+        {
             rotationTween.Kill();
+            rotationTween = null;
+        }
+
+        // Stop coroutines safely
+        if (afterimageRoutine != null)
+        {
+            StopCoroutine(afterimageRoutine);
+            afterimageRoutine = null;
+        }
+
+        if (audioWaitRoutine != null)
+        {
+            StopCoroutine(audioWaitRoutine);
+            audioWaitRoutine = null;
+        }
+
+        // Kill any remaining DOTween tweens on this gameobject
+        transform.DOKill();
+        if (pivotASprite != null)
+            pivotASprite.DOKill();
+        if (pivotBSprite != null)
+            pivotBSprite.DOKill();
     }
 
     public void RotateAround(Vector3 pivotPosition)
     {
         StopRotation(); // Stop any existing rotation
 
+        // Create rotation tween with proper cleanup
         rotationTween = DOVirtual.Float(0f, 360f, 360f / rotationSpeed, value =>
         {
-            transform.RotateAround(pivotPosition, Vector3.forward, rotationSpeed * Time.deltaTime);
+            if (this != null && transform != null) // Null check for safety
+            {
+                transform.RotateAround(pivotPosition, Vector3.forward, rotationSpeed * Time.deltaTime);
+            }
         })
         .SetEase(Ease.Linear)
-        .SetLoops(-1);
+        .SetLoops(-1)
+        .SetTarget(this); // Set target for proper cleanup
 
-        rotatingaudioSource.clip = rotatingClip;
-        if (!rotatingaudioSource.isPlaying)
+        // Handle rotating audio - play one shot instead of looping
+        if (rotatingaudioSource != null && rotatingClip != null)
         {
-            rotatingaudioSource.Play();
+            if (!rotatingaudioSource.isPlaying)
+            {
+                rotatingaudioSource.PlayOneShot(rotatingClip);
+            }
         }
 
-        if (afterimageRoutine == null)
+        // Start afterimage spawning
+        if (afterimagePrefab != null && afterimageRoutine == null)
             afterimageRoutine = StartCoroutine(SpawnAfterimages());
     }
 
     private IEnumerator SpawnAfterimages()
     {
-        while (true)
+        while (afterimagePrefab != null)
         {
-            GameObject afterimage = Instantiate(afterimagePrefab, transform.position, transform.rotation);
-            Destroy(afterimage, afterimageLifetime);
+            if (this != null && transform != null)
+            {
+                GameObject afterimage = Instantiate(afterimagePrefab, transform.position, transform.rotation);
+                if (afterimage != null)
+                    Destroy(afterimage, afterimageLifetime);
+            }
             yield return new WaitForSeconds(afterimageSpawnInterval);
         }
     }
 
     public void StopRotation()
     {
+        // Kill rotation tween safely
         if (rotationTween != null && rotationTween.IsActive())
+        {
             rotationTween.Kill();
+            rotationTween = null;
+        }
 
-        StartCoroutine(WaitForAudio());
+        // Stop audio wait routine if running
+        if (audioWaitRoutine != null)
+        {
+            StopCoroutine(audioWaitRoutine);
+        }
+        audioWaitRoutine = StartCoroutine(WaitForAudio());
 
+        // Stop afterimage spawning
         if (afterimageRoutine != null)
         {
             StopCoroutine(afterimageRoutine);
@@ -95,47 +149,59 @@ public class HourHandController : MonoBehaviour
 
     public void SetAnchor(Transform newAnchor)
     {
+        if (newAnchor == null) return; // Safety check
+
         currentAnchor = newAnchor;
         currentPivot = GetCorrespondingPivot(newAnchor);
         ReanchorTo(newAnchor);
 
+        // Kill any existing color tweens before starting new ones
         if (pivotASprite != null)
         {
+            pivotASprite.DOKill();
             pivotASprite.DOColor(Color.cyan, 0.3f).OnComplete(() =>
             {
-                pivotASprite.DOColor(originalColor, 0.3f);
-            });
+                if (pivotASprite != null) // Null check in callback
+                    pivotASprite.DOColor(originalColorA, 0.3f);
+            }).SetTarget(pivotASprite);
         }
 
         if (pivotBSprite != null)
         {
+            pivotBSprite.DOKill();
             pivotBSprite.DOColor(Color.cyan, 0.3f).OnComplete(() =>
             {
-                pivotBSprite.DOColor(originalColor, 0.3f);
-            });
+                if (pivotBSprite != null) // Null check in callback
+                    pivotBSprite.DOColor(originalColorB, 0.3f);
+            }).SetTarget(pivotBSprite);
         }
-
-        //anchoraudioSource.clip = anchorClip;
-        //if (!anchoraudioSource.isPlaying)
-        //{
-        //    anchoraudioSource.Play();
-        //    StartCoroutine(WaitForAudio());
-        //}
     }
 
     private IEnumerator WaitForAudio()
     {
-        if (rotatingaudioSource.isPlaying)
+        // Wait for rotating audio to finish
+        if (rotatingaudioSource != null && rotatingaudioSource.isPlaying)
         {
-            yield return new WaitWhile(() => rotatingaudioSource.isPlaying);
-            rotatingaudioSource.Stop(); // Stop rotating sound when rotation ends
-            anchoraudioSource.PlayOneShot(anchoraudioSource.clip); // Play anchor sound after rotation stops
+            yield return new WaitWhile(() => rotatingaudioSource != null && rotatingaudioSource.isPlaying);
+
+            if (rotatingaudioSource != null)
+                rotatingaudioSource.Stop();
+
+            // Play anchor sound after rotation stops
+            if (anchoraudioSource != null && anchorClip != null)
+                anchoraudioSource.PlayOneShot(anchorClip);
         }
-        if (anchoraudioSource.isPlaying)
+
+        // Wait for anchor audio to finish
+        if (anchoraudioSource != null && anchoraudioSource.isPlaying)
         {
-            yield return new WaitWhile(() => anchoraudioSource.isPlaying);
-            anchoraudioSource.Stop(); // Stop anchor sound after it finishes playing
+            yield return new WaitWhile(() => anchoraudioSource != null && anchoraudioSource.isPlaying);
+
+            if (anchoraudioSource != null)
+                anchoraudioSource.Stop();
         }
+
+        audioWaitRoutine = null;
     }
 
     public Transform GetFreePivot()
@@ -152,21 +218,31 @@ public class HourHandController : MonoBehaviour
         else
         {
             // fallback: pick the closest pivot to anchor
-            float distStart = Vector3.Distance(anchor.position, pivotStart.position);
-            float distEnd = Vector3.Distance(anchor.position, pivotEnd.position);
-            return distStart < distEnd ? pivotStart : pivotEnd;
+            if (pivotStart != null && pivotEnd != null && anchor != null)
+            {
+                float distStart = Vector3.Distance(anchor.position, pivotStart.position);
+                float distEnd = Vector3.Distance(anchor.position, pivotEnd.position);
+                return distStart < distEnd ? pivotStart : pivotEnd;
+            }
+            return pivotStart; // Fallback to start if null checks fail
         }
     }
 
     public void ReanchorTo(Transform newAnchor)
     {
-        // Move the entire hand so that the hand's currentPivot aligns exactly with newAnchor
+        if (newAnchor == null || currentPivot == null) return; // Safety checks
 
+        // Kill any existing move tween
+        transform.DOKill();
+
+        // Move the entire hand so that the hand's currentPivot aligns exactly with newAnchor
         Vector3 handPivotWorldPos = currentPivot.position;
         Vector3 anchorPos = newAnchor.position;
-
         Vector3 offset = anchorPos - handPivotWorldPos;
-        transform.DOMove(transform.position + offset, 0.15f).SetEase(Ease.OutBack);
+
+        transform.DOMove(transform.position + offset, 0.15f)
+            .SetEase(Ease.OutBack)
+            .SetTarget(this); // Set target for proper cleanup
     }
 
 #if UNITY_EDITOR
@@ -176,7 +252,6 @@ public class HourHandController : MonoBehaviour
         if (pivotStart != null && pivotEnd != null)
         {
             DrawArcPath(pivotStart.position, pivotEnd.position, Color.red);
-
             DrawArcPath(pivotEnd.position, pivotStart.position, Color.blue);
         }
     }

@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 148127882}
   - component: {fileID: 148127881}
   - component: {fileID: 148127880}
+  - component: {fileID: 148127884}
   m_Layer: 0
   m_Name: toBellTutorial
   m_TagString: Untagged
@@ -257,6 +258,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &148127884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148127879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92fc60c5d1f76c04184f11102bf5dfad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &186323783
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,6 +282,7 @@ GameObject:
   - component: {fileID: 186323785}
   - component: {fileID: 186323784}
   - component: {fileID: 186323787}
+  - component: {fileID: 186323788}
   m_Layer: 0
   m_Name: Home
   m_TagString: Untagged
@@ -395,6 +409,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 1.925
+--- !u!114 &186323788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186323783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92fc60c5d1f76c04184f11102bf5dfad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &207041281 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4076638832892117440, guid: 47a4d509bde1bbd46a30b468ddfe20b0, type: 3}

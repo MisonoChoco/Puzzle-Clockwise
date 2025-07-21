@@ -3,31 +3,7 @@
   "WorkspaceRootPath": "E:\\UNITIES\\Puzzle Clockwise Int\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|e:\\unities\\puzzle clockwise int\\assets\\scripts\\buttonanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|e:\\unities\\puzzle clockwise int\\assets\\scripts\\handcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\handcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|e:\\unities\\puzzle clockwise int\\assets\\scripts\\afterimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\afterimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle Clockwise Int\\assets\\scripts\\exitbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exitbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle Clockwise Int\\assets\\scripts\\background.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\background.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle Clockwise Int\\assets\\scripts\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle Clockwise Int\\assets\\scripts\\gameflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|e:\\unities\\puzzle clockwise int\\assets\\scripts\\gameflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,12 +11,28 @@
       "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle Clockwise Int\\assets\\scripts\\gamemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|e:\\unities\\puzzle clockwise int\\assets\\scripts\\custompivot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\custompivot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle Clockwise Int\\assets\\scripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle Clockwise Int\\assets\\scripts\\handcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\handcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle Clockwise Int\\assets\\scripts\\buttonanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle Clockwise Int\\assets\\scripts\\afterimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\afterimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle Clockwise Int\\assets\\scripts\\wincheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wincheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle Clockwise Int\\assets\\scripts\\exitbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exitbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle Clockwise Int\\assets\\scripts\\winfailuibuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,12 +43,24 @@
       "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\winfailscreenui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle Clockwise Int\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle Clockwise Int\\assets\\scripts\\gamemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle Clockwise Int\\assets\\scripts\\wincheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wincheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle Clockwise Int\\assets\\scripts\\background.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\background.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle Clockwise Int\\assets\\scripts\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle Clockwise Int\\assets\\scripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle Clockwise Int\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E11A1ED-A8DA-23B8-6EF6-1FB2BF8350E7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,37 +70,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "CustomPivot.cs",
+              "DocumentMoniker": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\CustomPivot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CustomPivot.cs",
+              "ToolTip": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\CustomPivot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CustomPivot.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA5wA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T11:08:10.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ButtonAnimation.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\ButtonAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonAnimation.cs",
               "ToolTip": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\ButtonAnimation.cs",
               "RelativeToolTip": "Assets\\Scripts\\ButtonAnimation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAswKYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T08:02:28.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T08:02:28.875Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Afterimage.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\Afterimage.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Afterimage.cs",
               "ToolTip": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\Afterimage.cs",
               "RelativeToolTip": "Assets\\Scripts\\Afterimage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T07:50:23.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T07:50:23.161Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "ExitButton.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\ExitButton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ExitButton.cs",
@@ -104,25 +119,23 @@
               "RelativeToolTip": "Assets\\Scripts\\ExitButton.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T07:41:52.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T07:41:52.392Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "HandController.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\HandController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HandController.cs",
               "ToolTip": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\HandController.cs",
               "RelativeToolTip": "Assets\\Scripts\\HandController.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAAwH0AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAYBAAAAAAAAAAAswBMBAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T04:30:15.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T04:30:15.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "Background.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\Background.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Background.cs",
@@ -134,19 +147,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "ButtonFunction.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\ButtonFunction.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonFunction.cs",
               "ToolTip": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\ButtonFunction.cs",
               "RelativeToolTip": "Assets\\Scripts\\ButtonFunction.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAA5wCoAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwBgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T22:16:57.511Z"
+              "WhenOpened": "2025-06-07T22:16:57.511Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "GameMode.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\GameMode.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameMode.cs",
@@ -158,19 +172,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "GameFlow.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\GameFlow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameFlow.cs",
               "ToolTip": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\GameFlow.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameFlow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAAF4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T21:56:07.276Z"
+              "WhenOpened": "2025-06-07T21:56:07.276Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Timer.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\Timer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Timer.cs",
@@ -182,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "ScoreManager.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\ScoreManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreManager.cs",
@@ -194,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "LevelManager.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\LevelManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LevelManager.cs",
@@ -206,37 +221,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 6,
               "Title": "WinCheck.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\WinCheck.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WinCheck.cs",
               "ToolTip": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\WinCheck.cs",
               "RelativeToolTip": "Assets\\Scripts\\WinCheck.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-07T21:38:13.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "WinFailUiButtons.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\WinFailUiButtons.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WinFailUiButtons.cs",
               "ToolTip": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\WinFailUiButtons.cs",
               "RelativeToolTip": "Assets\\Scripts\\WinFailUiButtons.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBwAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-07T21:37:13.392Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "WinFailScreenUi.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\WinFailScreenUi.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WinFailScreenUi.cs",
               "ToolTip": "E:\\UNITIES\\Puzzle Clockwise Int\\Assets\\Scripts\\WinFailScreenUi.cs",
               "RelativeToolTip": "Assets\\Scripts\\WinFailScreenUi.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-07T21:37:10.1Z"
             }
